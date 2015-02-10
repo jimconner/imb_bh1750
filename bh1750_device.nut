@@ -4,6 +4,10 @@
 // because I already had those sensors working and it seemed like a good 
 // place to start.
 
+// Copyright (c) 2015 Jim Conner
+// This file is licensed under the MIT license
+// http://opensource.org/licenses/MIT
+
 //-----------------------------------------------------------------------------------------
 class LightDevice_BH1750 {
     // Data Members
