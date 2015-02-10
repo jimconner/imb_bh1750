@@ -1,6 +1,8 @@
 
-/* Basic code to read temperature from BMP085 & TMP102 device via I2C */
-// BMP085 and TMP102 Temperature Reader
+/* Basic code to read light level from a BH1750 device via I2C */
+// This code is based loosely on the BMP085 and TMP102 Temperature Reader
+// because I already had those sensors working and it seemed like a good 
+// place to start.
 
 //-----------------------------------------------------------------------------------------
 class LightDevice_BH1750 {
