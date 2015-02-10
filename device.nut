@@ -87,7 +87,8 @@ local counter = 0;
 function bigLoop() { 
     counter = counter +1;
     
-    local lux = mysensor.read_light_level();
+    // divide the result by 1.2 to get the lumens value.
+    local lux = mysensor.read_light_level()/1.2;
 
     server.log( counter + " BH1750: " + lux + " lux " );
     
@@ -96,3 +97,4 @@ function bigLoop() {
 }
 
 bigLoop();
+
